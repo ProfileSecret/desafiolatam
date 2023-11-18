@@ -1,0 +1,25 @@
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+input {
+    margin: 2.5em;
+    width: 20%;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+}
+button {
+    padding: 1em;
+    width: 15%;
+}
