@@ -8,10 +8,10 @@ boton.addEventListener("click", () => {
   const total = +sticker1.value + +sticker2.value + +sticker3.value;
 
   if (total > 10) {
-    texto.innerHTML = `Llevas mas de 10 Stickers (${total})`;
-  } else if (total <= 10) {
+    texto.innerHTML = `Llevas demasiados Stickers (${total})`;
+  } else if (total <= 10 && total > 0) {
     texto.innerHTML = `Llevas ${total} Stickers`;
-  } else if (total >= 0) {
+  } else {
     texto.innerHTML = `Ingresa cantidad de stickers`;
   }
 });
